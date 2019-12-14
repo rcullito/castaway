@@ -1,0 +1,1 @@
+at wit's end... let's learn where we stand wrt temp, relative humidity, and atmospheric pressure
