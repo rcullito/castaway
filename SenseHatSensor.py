@@ -1,31 +1,24 @@
 from sense_hat import SenseHat
-from datetime import date
 
 sense = SenseHat()
 
 sense.clear()
 
 pressure = sense.get_pressure()
-print(pressure)
+print("Atmospheric pressure is", pressure)
 
 humidity = sense.get_humidity()
 
-print(humidity)
+print("Relative humidity is", humidity)
 
 temp = sense.get_temperature()
 
-print(temp)
+print("Temperature in Celcius is", temp)
 
-ptemp = sense.get_temperature_from_pressure()
 
-print(ptemp)
 
 # ok to start let's get the current date, and then write to a date file
 # with recordings every ten minutes. then the next day we start with a new file :)
-
-# fh = open('/home/pi/hack/2019-12-14.txt', 'a+')
-# fh.write('Hello Claire')
-# fh.close
 
 f = open("2019-12-14.txt", "a")
 f.write("Current humidity is:")
