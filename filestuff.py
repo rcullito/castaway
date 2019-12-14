@@ -5,3 +5,5 @@ f = open("2019-12-14.txt", "a")
 f.write("Current humidity is:")
 f.write(str(humidity))
 f.close()
+
+# write a file if it doesn't already exist
