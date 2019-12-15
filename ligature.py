@@ -9,10 +9,10 @@ def pretty_sense(sensory):
     return (str(round(sensory)))
 
 def make_timestamp(t):
-    return t.strftime("%X")
+    return t.strftime("%X") + ": "
 
 def build_file_row(t, environmentals):
-    return make_timestamp(t) + " pressure, humidity, & temperature: " + environmentals
+    return make_timestamp(t) + environmentals + "\n"
 
 # initialize sensor
 sense = SenseHat()
