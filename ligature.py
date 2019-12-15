@@ -1,3 +1,5 @@
+#! /usr/bin/python3
+
 # mishmosh of the other files
 # this may end up being the useful one
 from datetime import datetime
