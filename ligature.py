@@ -18,12 +18,12 @@ def build_file_row(t, environmentals):
 sense = SenseHat()
 sense.clear()
 
-#get environmental readings
+# get environmental readings
 pressure = sense.get_pressure()
 humidity = sense.get_humidity()
 temperature = sense.get_temperature()
 
-#format environmental readings
+# format environmental readings
 sensors = [pressure, humidity, temperature]
 print_worthy_sensors = ", ".join(map(pretty_sense, sensors))
 
