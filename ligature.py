@@ -16,6 +16,9 @@ def make_timestamp(t):
 def build_file_row(t, environmentals):
     return make_timestamp(t) + environmentals + "\n"
 
+def convert_fahrenheit(celcius):
+    return (celcius * 9/5) + 32
+
 # initialize sensor
 sense = SenseHat()
 sense.clear()
@@ -26,7 +29,7 @@ humidity = sense.get_humidity()
 temperature = sense.get_temperature()
 
 # format environmental readings
-sensors = [pressure, humidity, temperature]
+sensors = [pressure, humidity, convert_fahrenheit(temperature)]
 print_worthy_sensors = ", ".join(map(pretty_sense, sensors))
 
 # flesh out some useful date info
