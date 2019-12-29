@@ -1,4 +1,6 @@
 2019-12-29    <pi@raspberrypi>
 
+	* made a helper script for saving cron locally. decouple this from git
+
 	* removed 1am fail-safe from crontab
 
