@@ -1,0 +1,4 @@
+2019-12-29    <pi@raspberrypi>
+
+	* removed 1am fail-safe from crontab
+
