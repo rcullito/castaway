@@ -21,4 +21,6 @@
 # For more information see the manual pages of crontab(5) and cron(8)
 # 
 # m h  dom mon dow   command
+
+# record sense data only during the night
 0 0,1,3,6 * * * /home/pi/hack/ligature.py
