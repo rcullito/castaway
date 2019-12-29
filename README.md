@@ -12,7 +12,7 @@ ligature.py, pulls readings from hat, prettifies, and writes to file by date
 -- utils/
    - blinkatest.py, ensures that the underlying rasberry pi libraries
      		    are sufficient to use the sensehat
-   - SenseHatSensory.py, prints out environmental readings from hat
+   - SenseHatSensory.py, prints out environmental readings from hat. Run this script if you want to get a quick look at the current readings.
 
 ## Cron
    (TODO)
