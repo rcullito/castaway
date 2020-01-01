@@ -14,5 +14,5 @@ sense = SenseHat()
 # success
 sense.show_message("Thanks", back_colour=(0,255,0))
 
-sense.clear(0, 0, 0)
+sense.clear()
 
