@@ -10,9 +10,9 @@ sense = SenseHat()
  #                  back_colour=(0,0,0),
   #                 scroll_speed=(0.05))
 
-
 # success
-sense.show_message("Thanks", back_colour=(0,255,0))
+sense.show_message("Success", text_colour=(0,255,0))
 
-sense.clear()
+sense.show_message("Failure", text_colour=(255,0,0))
+
 
