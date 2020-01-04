@@ -24,3 +24,7 @@ In order to use this on your local machine, you'll have to:
    
 ## Hardware List
    (TODO)
+
+## Turning off the RED LED light
+   cd /sys/class/leds/led1
+   echo 1 | sudo tee brightness
