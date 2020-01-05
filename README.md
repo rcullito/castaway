@@ -25,8 +25,7 @@ In order to use this on your local machine, you'll have to:
 ## Hardware List
    (TODO)
 
-## Turning off the RED LED light
-   cd /sys/class/leds/led1
-   echo 1 | sudo tee brightness
+## Turning off the RED LED light on Rasberry Pi 4
+    ./turn_off_light
 
-for some reason have to echo 0 then 1 for it to work
+
