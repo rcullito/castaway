@@ -28,3 +28,5 @@ In order to use this on your local machine, you'll have to:
 ## Turning off the RED LED light
    cd /sys/class/leds/led1
    echo 1 | sudo tee brightness
+
+for some reason have to echo 0 then 1 for it to work
