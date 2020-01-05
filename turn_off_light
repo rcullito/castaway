@@ -1,0 +1,5 @@
+#!/bin/sh
+
+cd /sys/class/leds/led1
+echo 0 | sudo tee brightness
+echo 1 | sudo tee brightness
