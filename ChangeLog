@@ -1,3 +1,8 @@
+2020-01-05    <pi@raspberrypi>
+
+	* new micro bash script to turn off light on rasberry pi 4
+	TODO, investigate why first run returns 0 for atmospheric pressure
+
 2019-12-29    <pi@raspberrypi>
 
 	* made a helper script for saving cron locally. decouple this from git

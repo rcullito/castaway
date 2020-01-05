@@ -28,4 +28,6 @@ In order to use this on your local machine, you'll have to:
 ## Turning off the RED LED light on Rasberry Pi 4
     ./turn_off_light
 
+## Project Prgoress
 
+   updates can be found here on the [changelog](./ChangeLog)
