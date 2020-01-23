@@ -1,3 +1,12 @@
+2020-01-23  Rob Culliton  <rob.culliton@gmail.com>
+
+	* working arduino
+	TODO,
+	 - side by side test of arduino and rasberry pi in same room
+	- split out repo by project. sense, arduino zero, etc...
+	- edit arduino code to take into account sea level, elevation &
+	then start working on the timing aspect
+
 2020-01-05    <pi@raspberrypi>
 
 	* new micro bash script to turn off light on rasberry pi 4
