@@ -1,0 +1,22 @@
+Temperature = 19.94 *C
+Pressure = 1027.17 hPa
+Approx. Altitude = -115.22 m
+Humidity = 35.80 %
+
+
+Open arudino IDE as root
+
+robert@robert-carbon ~/rob/arduino-1.8.10 $ sudo ./arduino
+
+1. install adafruit sensor & bme280 libraries
+2. make sure to sync board to get arduino zero
+3. board: arduino zero (programming port)
+4. port: /dev/ttyACM0
+5. compile & upload
+
+You can install the adafruit libraries now right from the arduino IDE
+
+Keep in mind that there is an arduino folder within /home/robert and a versioned one within ~/rob/arduino-1.8.10
+
+helpful guide on the zero's configuration
+https://www.arduino.cc/en/Guide/ArduinoZero#toc10
