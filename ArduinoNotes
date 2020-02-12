@@ -10,7 +10,7 @@ robert@robert-carbon ~/rob/arduino-1.8.10 $ sudo ./arduino
 
 1. install adafruit sensor & bme280 libraries
 2. make sure to sync board to get arduino zero
-3. board: arduino zero (programming port)
+3. board: arduino zero (programming port) the one closer to the cylindrical power
 4. port: /dev/ttyACM0
 5. compile & upload
 
